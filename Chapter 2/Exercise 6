@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+// https://lptcp.blogspot.com/
+// 
+/*
+	Chapter 2 - Exercise 6
+	(*1) Read in a bool, a char, an int, a double, and a string.
+
+*/
+// https://github.com/l-paz91/
+// -----------------------------------------------------------------------------
+
+//--INCLUDES--//
+#include "std_lib_facilities.h"
+
+// -----------------------------------------------------------------------------
+
+int main()
+{
+	bool b;
+	char c;
+	int i;
+	double d;
+	string s;
+
+	cout << "Enter a bool (0 or 1): ";
+	cin >> b;
+	cout << boolalpha << b << endl;
+
+	cout << "Enter a char: ";
+	cin >> c;
+	cout << c << endl;
+
+	cout << "Enter an int: ";
+	cin >> i;
+	cout << i << endl;
+
+	cout << "Enter a double: ";
+	cin >> d;
+	cout << d << endl;
+
+	cout << "Enter a string: ";
+	cin >> s;
+	cout << s << endl;
+
+	keep_window_open();
+
+	return 0;
+}
+
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
